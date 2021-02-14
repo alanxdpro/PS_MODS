@@ -1,5 +1,5 @@
 const help = (prefix) => {
-	return `ঔ☬✞ঔ𝐓𝐫𝐚𝐬𝐡ф𝐃𝐤'𝐎𝐟𝐜ꪶ✞☬ঔ(BOT)comandos:
+	return `PS Mods(BOT)comandos:
 
 🌊🐚🌕Comando : *${prefix}sticker* ou *${prefix}stiker*🌻✨🌞
 desc : converter imagem / gif / vídeo em adesivo
