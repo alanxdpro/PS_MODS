@@ -728,7 +728,7 @@ case 'animehug':
 					client.sendMessage(from, teks, text, {detectLinks: false, quoted: mek})
 					break
 				case 'clearall':
-					if (!isOwner) return reply('Quem é tu lixo?')
+					if (!isOwner) return reply('Quem é tu?')
 					anu = await client.chats.all()
 					client.setMaxListeners(25)
 					for (let _ of anu) {
@@ -872,7 +872,7 @@ case 'textodeneve':
 					client.sendMessage(from, buffer, image, {quoted: mek})
                                         break
 				case 'simi':
-					if (args.length < 1) return reply('Onde esta o texto poha, hum?')
+					if (args.length < 1) return reply('Onde esta o texto , hum?')
 					teks = body.slice(5)
 					anu = await simih(teks) //fetchJson(`https://mhankbarbars.herokuapp.com/api/samisami?text=${teks}`, {method: 'get'})
 					//if (anu.error) return reply('Simi nao sabe')
@@ -943,10 +943,10 @@ case 'textodeneve':
 					}
 					break
                                 					case 'dono':
-if (args.length < 1) return reply('TrashфDkofcꪶ Número do meu dono😎🤙:WA.me/558494740630\n😎🤙Youtube do meu \ndono:https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw\n \nNúmero da cremosa do meu dono que ajudou a fazer o menu 😎🤙ঔৣ☬✞𝐓𝐫𝐚𝐬𝐡|𝐉𝐮𝐰 ✞☬ঔৣ: wa.me/558491093889')
+if (args.length < 1) return reply('Ps Mods Canal: https://www.youtube.com/c/PsMods n/TrashфDkofcꪶ Número do meu dono😎🤙:WA.me/558494740630\n😎🤙Youtube do meu \ndono:https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw\n \nNúmero da cremosa do meu dono que ajudou a fazer o menu 😎🤙ঔৣ☬✞𝐓𝐫𝐚𝐬𝐡|𝐉𝐮𝐰 ✞☬ঔৣ: wa.me/558491093889')
                                         break
-case 'porno':
-if (args.length < 1) return reply('Meu dono proibiu o porno 😎🤙')
+case 'proibido':
+if (args.length < 1) return reply('Meu dono proibiu o porno  😎🤙')
 break
 case 'bomdia':
 if (args.length < 1) return reply('Bom dia meu bom 😎🤙')
